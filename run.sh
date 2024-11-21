@@ -18,6 +18,11 @@ build/sbt spark/'testOnly org.apache.spark.sql.delta.optimize.OptimizeCompaction
 
 build/sbt spark/'testOnly *.OptimizeCompactionSQLSuite -- -z "optimize command: on partitioned table - all partitions"'
 
+###
+
+
+
+
 
 
 
